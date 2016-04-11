@@ -1,0 +1,22 @@
+<resources>
+
+    <string name="app_name"> تلاوات القرأن كاملة</string>
+
+    <string name="search_title">Search</string>
+
+    <string name="title_activity_recites_name">Recites Names</string>
+    <string name="title_activity_aya_list">Aya List</string>
+    <string name="back"> back</string>
+    <string name="menu">menu</string>
+    <string name="downlaod">download</string>
+    <string name="title_activity_managerdb">Listen</string>
+
+
+    <string name="rateapp">Rate APP</string>
+    <string name="separeteapp"> Share APP</string>
+    <string name="Languages">Language</string>
+    <string name="sharemessage"> This Awesome app to listen to Quran i would like to share it with you</string>
+    <string name="ar">Arabic</string>
+    <string name="en">English</string>
+    <string name="rateq">would you like to rate the app</string>
+</resources>

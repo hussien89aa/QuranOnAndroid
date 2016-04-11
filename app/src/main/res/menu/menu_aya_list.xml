@@ -1,0 +1,15 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="quranonlinesapp.onlines.com.quranonlinesapp.AyaList">
+
+
+    <item android:id="@+id/search"
+        android:title="@string/search_title"
+        app:showAsAction="always"
+        app:actionViewClass="android.widget.SearchView" />
+    <item android:id="@+id/gbackmenu"
+        android:title="@string/back"
+        android:icon="@drawable/left"
+        app:showAsAction="ifRoom" />
+</menu>

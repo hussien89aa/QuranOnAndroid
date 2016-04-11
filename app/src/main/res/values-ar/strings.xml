@@ -1,0 +1,22 @@
+<resources>
+
+    <string name="app_name"> تلاوات القرأن كاملة</string>
+    <string name="title_activity_recites_name">القراء</string>
+     <string name="title_activity_aya_list">سور القارئ</string>
+    <string name="back"> رجوع</string>
+    <string name="menu">قائمة</string>
+    <string name="downlaod">تنزيل</string>
+<string name="title_activity_managerdb">استماع</string>
+    <string name="banner_ad_unit_id"> ca-app-pub-7315471620590850/5771688528</string>
+    <string name="Pop_ad_unit_id">ca-app-pub-7315471620590850/9677892525</string>
+
+    <string name="search_title">بحث</string>
+    <string name="rateapp">قيم  التطبيق</string>
+    <string name="separeteapp">  شارك التطبيق</string>
+    <string name="Languages"> لغة</string>
+    <string name="sharemessage">  تطبيق تلاوات بصوت ١٢٠ قارئ رائع اود مشاركته معك نصبه الان</string>
+    <string name="ar"> عربي</string>
+    <string name="en"> انكليزي</string>
+    <string name="rateq"> هل تود تقييم التطبيق</string>
+
+</resources>

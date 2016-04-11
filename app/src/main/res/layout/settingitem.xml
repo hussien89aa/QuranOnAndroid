@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:background="@drawable/menuback"
+    android:layoutDirection="rtl"
+
+    android:layout_height="wrap_content"
+    android:paddingLeft="0dp"
+    android:paddingRight="15dp"
+    android:paddingTop="9dp"
+    android:paddingBottom="9dp">
+
+    <LinearLayout
+        android:background="@drawable/menuback"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+
+            android:focusable="false"
+            android:focusableInTouchMode="false"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:id="@+id/imgchannel"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:src="@drawable/network"
+            android:layout_marginLeft="7dp"
+            android:layout_weight="0" />
+
+        <TextView
+
+
+            android:gravity="right"
+            android:background="@drawable/menuback"
+            android:focusable="false"
+            android:focusableInTouchMode="false"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Large Text"
+            android:id="@+id/textView"
+            android:layout_toLeftOf="@+id/imgchannel"
+            android:layout_alignBottom="@+id/imgchannel"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:paddingTop="1dp"
+            android:paddingRight="7dp"
+            android:textSize="20dp"
+            android:layout_weight="1" />
+
+        <ImageView
+            android:background="@drawable/menuback"
+            android:focusable="false"
+            android:focusableInTouchMode="false"
+            android:layout_width="20dp"
+            android:layout_height="25dp"
+            android:id="@+id/imageView"
+            android:paddingTop="5dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:src="@drawable/backirrow"
+
+            android:layout_weight="0" />
+    </LinearLayout>
+</RelativeLayout>
