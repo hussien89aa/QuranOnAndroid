@@ -54,7 +54,7 @@ public class LnaguageClass {
 
     public    ArrayList<AuthorClass> AutherList()
     {
-        //120 read of quran
+        //121 read of quran
         AutherListInfo.clear();
         if (SaveSettings.LanguageSelect == 1)
         {
@@ -181,6 +181,7 @@ public class LnaguageClass {
             AutherListInfo.add(new AuthorClass( "yahya",   " يحيى حوا" ));
             AutherListInfo.add(new AuthorClass( "yousef",   " يوسف الشويعي" ));
             AutherListInfo.add(new AuthorClass( "noah",   "يوسف بن نوح أحمد" ));
+            AutherListInfo.add(new AuthorClass( "omar_warsh",   " عمر القزابري" ));
 
 
         }
@@ -191,128 +192,129 @@ public class LnaguageClass {
 
         else
         {
-            AutherListInfo.add(new AuthorClass( "shatri",   "Abo Bakr AL-shtri" ));
-            AutherListInfo.add(new AuthorClass( "ahmad_huth",   "Ahmed Al-hadefy" ));
-            AutherListInfo.add(new AuthorClass( "hawashi",   " Ahmed Al-hoshy" ));
-            AutherListInfo.add(new AuthorClass( "trabulsi",   " Ahmed Al-triblsy" ));
-            AutherListInfo.add(new AuthorClass( "ajm",   "Ahmed Al-ajmey " ));
-            AutherListInfo.add(new AuthorClass( "trablsi",   " Ahmed Kudar Triblsy" ));
-            AutherListInfo.add(new AuthorClass( "saud",   "Ahmed Suaad" ));
-            AutherListInfo.add(new AuthorClass( "saber",   "Ahmed Sabar" ));
-            AutherListInfo.add(new AuthorClass( "Aamer",   "Ahmed Amar" ));
-            AutherListInfo.add(new AuthorClass( "ahmad_nu",   "Ahmed Nineei" ));
-            AutherListInfo.add(new AuthorClass( "akil",   "Kalel Abd-alhie" ));
-            AutherListInfo.add(new AuthorClass( "akrm",   " Akram AL-alkime" ));
-            AutherListInfo.add(new AuthorClass( "akdr",   " Abrihim Kudar" ));
-            AutherListInfo.add(new AuthorClass( "IbrahemSadan",   " Abrihim sadan" ));
-            AutherListInfo.add(new AuthorClass( "abkr",   " Adress bakir" ));
-            AutherListInfo.add(new AuthorClass( "jbreen",   " Abrihim jabrin" ));
+            AutherListInfo.add(new AuthorClass( "shatri",   "Abo Bakr Al-Shtri" ));
+            AutherListInfo.add(new AuthorClass( "ahmad_huth",   "Ahmed Al-Hadefy" ));
+            AutherListInfo.add(new AuthorClass( "hawashi",   " Ahmed Al-Hoshy" ));
+            AutherListInfo.add(new AuthorClass( "trabulsi",   " Ahmed Al-Trabulsy" ));
+            AutherListInfo.add(new AuthorClass( "ajm",   "Ahmed Al-Ajmey " ));
+            AutherListInfo.add(new AuthorClass( "trablsi",   " Ahmed Khudr Al-Tarabulsy" ));
+            AutherListInfo.add(new AuthorClass( "saud",   "Ahmed Saûd" ));
+            AutherListInfo.add(new AuthorClass( "saber",   "Ahmed Saber" ));
+            AutherListInfo.add(new AuthorClass( "Aamer",   "Ahmed Amerr" ));
+            AutherListInfo.add(new AuthorClass( "ahmad_nu",   "Ahmed Nuainii" ));
+            AutherListInfo.add(new AuthorClass( "akil",   "Kalel Abd-Alhay" ));
+            AutherListInfo.add(new AuthorClass( "akrm",   " Akram AL-Alkime" ));
+            AutherListInfo.add(new AuthorClass( "akdr",   " Ibrahim Khudr" ));
+            AutherListInfo.add(new AuthorClass( "IbrahemSadan",   " Ibrahim Sadan" ));
+            AutherListInfo.add(new AuthorClass( "abkr",   " Idriss Abkar" ));
+            AutherListInfo.add(new AuthorClass( "jbreen",   " Ibrahim Jibril" ));
             AutherListInfo.add(new AuthorClass( "jormy",   "Abrihim jazme" ));
-            AutherListInfo.add(new AuthorClass( "ibrahim_dosri_warsh",   "  Abrihim dosey" ));
-            AutherListInfo.add(new AuthorClass( "3siri",   "Abrihim aseriy" ));
-            AutherListInfo.add(new AuthorClass( "zamri",   "mister Ramze" ));
-            AutherListInfo.add(new AuthorClass( "3zazi",   "Al-husaney Al-azaze" ));
-            AutherListInfo.add(new AuthorClass( "dokali",   " Al-dokaley mohammed al-alm" ));
-            AutherListInfo.add(new AuthorClass( "alzain",   " Alzin mohammed ahmed" ));
-            AutherListInfo.add(new AuthorClass( "omran",   "Al-ashire auomran" ));
-            AutherListInfo.add(new AuthorClass( "koshi",   " Al eyon alkoshe" ));
-            AutherListInfo.add(new AuthorClass( "fateh",   " Al-fatih mohamed alzober" ));
-            AutherListInfo.add(new AuthorClass( "qari",   "Yasen al-kare " ));
+            AutherListInfo.add(new AuthorClass( "ibrahim_dosri_warsh",   "  Ibrahim Dosri" ));
+            AutherListInfo.add(new AuthorClass( "3siri",   "Abrihim Al-Aseyri" ));
+            AutherListInfo.add(new AuthorClass( "zamri",   "Mister Zamiri" ));
+            AutherListInfo.add(new AuthorClass( "3zazi",   "Al-Husaney Al-Azaze" ));
+            AutherListInfo.add(new AuthorClass( "dokali",   " Al-Dokaley Mohammed Al-Alm" ));
+            AutherListInfo.add(new AuthorClass( "alzain",   " Alzin Mohammed Ahmed" ));
+            AutherListInfo.add(new AuthorClass( "omran",   "Al-Ashire Omran" ));
+            AutherListInfo.add(new AuthorClass( "koshi",   " Al-eyon Al-Koshy" ));
+            AutherListInfo.add(new AuthorClass( "fateh",   " Al-Fatih Mohamed Al-Zober" ));
+            AutherListInfo.add(new AuthorClass( "qari",   "Yasen Al-Kare " ));
             /// update
             ///new qura
-            AutherListInfo.add(new AuthorClass( "twfeeq",   "Tofek alsaek" ));
-            AutherListInfo.add(new AuthorClass( "jamal",   "jamal shakr abd" ));
-            AutherListInfo.add(new AuthorClass( "jaman",   " joman al asime" ));
-            AutherListInfo.add(new AuthorClass( "hatem",   "hatem fared alwaey" ));
-            AutherListInfo.add(new AuthorClass( "qht",   "khiled alkahtine" ));
-            AutherListInfo.add(new AuthorClass( "mohna",   " khilid almihin" ));
-            AutherListInfo.add(new AuthorClass( "kafi",   " khilid almihin" ));
-            AutherListInfo.add(new AuthorClass( "tnjy",   "kalefa altabnjey" ));
-            AutherListInfo.add(new AuthorClass( "hamza",   "dawood hamza" ));
-            AutherListInfo.add(new AuthorClass( "ifrad",   " rashed afrad" ));
-            AutherListInfo.add(new AuthorClass( "zaki",   "zake dakistine" ));
-            AutherListInfo.add(new AuthorClass( "sami_dosr",   "same aldosirey" ));
-            AutherListInfo.add(new AuthorClass( "s_gmd",   "saad alkamade" ));
-            AutherListInfo.add(new AuthorClass( "shur",   "sauuad alshirem" ));
-            AutherListInfo.add(new AuthorClass( "shl",   " sahil yasin" ));
-            AutherListInfo.add(new AuthorClass( "sayed",   " sayed ramadan" ));
-            AutherListInfo.add(new AuthorClass( "taher",   "sherzad abd rahman" ));
-            AutherListInfo.add(new AuthorClass( "hkm",   " sabar abd alhakam" ));
-            AutherListInfo.add(new AuthorClass( "sahood",   " saleh alsahood" ));
-            AutherListInfo.add(new AuthorClass( "s_bud",   "salah al badeer" ));
-            AutherListInfo.add(new AuthorClass( "salah_hashim_m",   "salah alhashim" ));
-            AutherListInfo.add(new AuthorClass( "bu_khtr",   "salah abo katar" ));
-            AutherListInfo.add(new AuthorClass( "tareq",   "tarek abd alkane" ));
-            AutherListInfo.add(new AuthorClass( "a_klb",   " adel alklabine" ));
-            AutherListInfo.add(new AuthorClass( "ryan",   " adel rayan" ));
-            AutherListInfo.add(new AuthorClass( "thubti",   "abd al barey" ));
-            AutherListInfo.add(new AuthorClass( "bari",   "abd albarey mohammed" ));
-            AutherListInfo.add(new AuthorClass( "bari_molm",   " abd albarey mohammed M" ));
-            AutherListInfo.add(new AuthorClass( "basit",   "abd albasit abd samad H" ));
-            AutherListInfo.add(new AuthorClass( "basit_warsh",   " abd albasit abd samad w" ));
-            AutherListInfo.add(new AuthorClass( "basit_mjwd",   " abd albasit abd samad M" ));
-            AutherListInfo.add(new AuthorClass( "sds",   " abd alrihman alsides" ));
-            AutherListInfo.add(new AuthorClass( "soufi_klf",   " abd rashed sofe" ));
-            AutherListInfo.add(new AuthorClass( "soufi",   "abd rashed sofe S" ));
-            AutherListInfo.add(new AuthorClass( "a_ahmed",   "abd alaziz samad  " ));
-            AutherListInfo.add(new AuthorClass( "brmi",   " abd alah barimey" ));
-            AutherListInfo.add(new AuthorClass( "Abdullahk",   " abd alah kindry" ));
-            AutherListInfo.add(new AuthorClass( "mtrod",   " abd alah matrood" ));
-            AutherListInfo.add(new AuthorClass( "bsfr",   " abd alah basfar" ));
-            AutherListInfo.add(new AuthorClass( "kyat",   " abd alah kayat" ));
-            AutherListInfo.add(new AuthorClass( "jhn",   "abd alah awad" ));
-            AutherListInfo.add(new AuthorClass( "mohsin_harthi",   " abd ahmmahsin alharithey" ));
-            AutherListInfo.add(new AuthorClass( "obk",   " bd ahmmahsin alabekan" ));
-            AutherListInfo.add(new AuthorClass( "qasm",   " bd ahmmahsin alkasim" ));
-            AutherListInfo.add(new AuthorClass( "kanakeri",   " abd alhidey ahmed " ));
-            AutherListInfo.add(new AuthorClass( "wdod",   " abd awadood" ));
-            AutherListInfo.add(new AuthorClass( "abo_hashim",   " ali abo hasim" ));
-            AutherListInfo.add(new AuthorClass( "huthifi_qalon",   " ali alhithefy" ));
-            AutherListInfo.add(new AuthorClass( "hthfi",   " ali bin abd alrahman" ));
-            AutherListInfo.add(new AuthorClass( "a_jbr",   " ali jabar" ));
-            AutherListInfo.add(new AuthorClass( "hajjaj",   " ali hajaj " ));
-            AutherListInfo.add(new AuthorClass( "hafz",   " amad zoheer" ));
-            AutherListInfo.add(new AuthorClass( "frs_a",   " faaris abad" ));
-            AutherListInfo.add(new AuthorClass( "lafi",   " lafey alawwney" ));
-            AutherListInfo.add(new AuthorClass( "zaml",   " majad alzamel" ));
-            AutherListInfo.add(new AuthorClass( "shaibat",   "malak shiba" ));
-            AutherListInfo.add(new AuthorClass( "maher_m",   " maheer al maeekly" ));
-            AutherListInfo.add(new AuthorClass( "maher",   " maheer al maeekly H" ));
-            AutherListInfo.add(new AuthorClass( "shaksh",   " maheer shkasher" ));
-            AutherListInfo.add(new AuthorClass( "ayyub",   " mohammed ayoob" ));
-            AutherListInfo.add(new AuthorClass( "braak",   " mohammed barak" ));
-            AutherListInfo.add(new AuthorClass( "tblawi",   " mohammed altablaye" ));
-            AutherListInfo.add(new AuthorClass( "mhsny",   " mohammed almahsaney" ));
-            AutherListInfo.add(new AuthorClass( "monshed",   "mohammed al minshid" ));
-            AutherListInfo.add(new AuthorClass( "jbrl",   " mohamed jabril" ));
-            AutherListInfo.add(new AuthorClass( "rashad",   " mohamed rashid " ));
-            AutherListInfo.add(new AuthorClass( "shah",   " mohamed salih" ));
-            AutherListInfo.add(new AuthorClass( "minsh",   " mohammed sadeek alminshawe" ));
-            AutherListInfo.add(new AuthorClass( "minsh_mjwd",   "mohammed sadeek alminshawe M" ));
-            AutherListInfo.add(new AuthorClass( "abdullah_dori",   " Mohamed abd alhakeem" ));
-            AutherListInfo.add(new AuthorClass( "khan",   " mohammed athman kan" ));
-            AutherListInfo.add(new AuthorClass( "mrifai",   " mahmood alrifaey" ));
-            AutherListInfo.add(new AuthorClass( "sheimy",   " mahmmod alshimey" ));
-            AutherListInfo.add(new AuthorClass( "husr",   " mahmood kaley" ));
-            AutherListInfo.add(new AuthorClass( "bna_mjwd",   " mahmood ali" ));
-            AutherListInfo.add(new AuthorClass( "afs",   " masharey alafasy" ));
-            AutherListInfo.add(new AuthorClass( "mustafa",   " mostaa asmael" ));
-            AutherListInfo.add(new AuthorClass( "lahoni",   " mostafa allahoney" ));
-            AutherListInfo.add(new AuthorClass( "ra3ad",   " mostafa raeed" ));
-            AutherListInfo.add(new AuthorClass( "harthi",   " maeeth alharithey" ));
-            AutherListInfo.add(new AuthorClass( "muftah_thakwan",   " mafatf alsoltaney" ));
-            AutherListInfo.add(new AuthorClass( "bilal",   "mosa balal" ));
-            AutherListInfo.add(new AuthorClass( "qtm",   "nasar alkamatey" ));
-            AutherListInfo.add(new AuthorClass( "nabil",   "nabeel alrafaeey" ));
-            AutherListInfo.add(new AuthorClass( "namh",   "naama alhasan" ));
-            AutherListInfo.add(new AuthorClass( "hani",   "haney alrafaey" ));
-            AutherListInfo.add(new AuthorClass( "waleed",   " waleed alhaneha" ));
-            AutherListInfo.add(new AuthorClass( "yasser",   " yasar dosary" ));
-            AutherListInfo.add(new AuthorClass( "qurashi",   " yasar korashey" ));
-            AutherListInfo.add(new AuthorClass( "mzroyee",   "yasar mazroey" ));
-            AutherListInfo.add(new AuthorClass( "yahya",   " yahya hawa" ));
-            AutherListInfo.add(new AuthorClass( "yousef",   " yoousif alshwaeey " ));
-            AutherListInfo.add(new AuthorClass( "noah",   "yousfi bin nooh" ));
+            AutherListInfo.add(new AuthorClass( "twfeeq",   "Tofek Alsaek" ));
+            AutherListInfo.add(new AuthorClass( "jamal",   "Jamal Shakr Abd" ));
+            AutherListInfo.add(new AuthorClass( "jaman",   " Joman Al Asime" ));
+            AutherListInfo.add(new AuthorClass( "hatem",   "Hatem Farid Alwaer" ));
+            AutherListInfo.add(new AuthorClass( "qht",   "Khaled Al-Kahtani" ));
+            AutherListInfo.add(new AuthorClass( "mohna",   " Khaled AlMohna" ));
+            AutherListInfo.add(new AuthorClass( "kafi",   " Khaled Abd AlKafi" ));
+            AutherListInfo.add(new AuthorClass( "tnjy",   "Khalifa AlTanejey" ));
+            AutherListInfo.add(new AuthorClass( "hamza",   "Dawood Hamza" ));
+            AutherListInfo.add(new AuthorClass( "ifrad",   " Rashid Ifrad" ));
+            AutherListInfo.add(new AuthorClass( "zaki",   "Zaki Daghistani" ));
+            AutherListInfo.add(new AuthorClass( "sami_dosr",   "Sami AlDosrey" ));
+            AutherListInfo.add(new AuthorClass( "s_gmd",   "Saad AlGhamdy" ));
+            AutherListInfo.add(new AuthorClass( "shur",   "Saud AlShirem" ));
+            AutherListInfo.add(new AuthorClass( "shl",   " Sahl Yasin" ));
+            AutherListInfo.add(new AuthorClass( "sayed",   " Sayed Ramadan" ));
+            AutherListInfo.add(new AuthorClass( "taher",   "Sherzad Abd-Arrahman Taher" ));
+            AutherListInfo.add(new AuthorClass( "hkm",   " Saber Abd AlHakam" ));
+            AutherListInfo.add(new AuthorClass( "sahood",   " saleh As-Sahood" ));
+            AutherListInfo.add(new AuthorClass( "s_bud",   "Salah Al Badeer" ));
+            AutherListInfo.add(new AuthorClass( "salah_hashim_m",   "Salah AlHashim" ));
+            AutherListInfo.add(new AuthorClass( "bu_khtr",   "Salah abo Khater" ));
+            AutherListInfo.add(new AuthorClass( "tareq",   "Tarek Abd-Alghani Daub" ));
+            AutherListInfo.add(new AuthorClass( "a_klb",   " Adel AlKalbani" ));
+            AutherListInfo.add(new AuthorClass( "ryan",   " Adel Rayyan" ));
+            AutherListInfo.add(new AuthorClass( "thubti",   "Abd Al-Barey" ));
+            AutherListInfo.add(new AuthorClass( "bari",   "Abd Al-Barey Mohammed" ));
+            AutherListInfo.add(new AuthorClass( "bari_molm",   " Abd Al-Barey Mohammed M" ));
+            AutherListInfo.add(new AuthorClass( "basit",   "Abd-AlBasit Abdessamad H" ));
+            AutherListInfo.add(new AuthorClass( "basit_warsh",   " Abd-AlBasit Abdessamad w" ));
+            AutherListInfo.add(new AuthorClass( "basit_mjwd",   " Abd-AlBasit Abdessamad M" ));
+            AutherListInfo.add(new AuthorClass( "sds",   " Abd-AlRahman Al-Sudays" ));
+            AutherListInfo.add(new AuthorClass( "soufi_klf",   " Abd-Rashed Sofe" ));
+            AutherListInfo.add(new AuthorClass( "soufi",   "Abd-Rashed Sofe S" ));
+            AutherListInfo.add(new AuthorClass( "a_ahmed",   "Abd-AlAziz Samad  " ));
+            AutherListInfo.add(new AuthorClass( "brmi",   " Abd-Allah Al-Barimi" ));
+            AutherListInfo.add(new AuthorClass( "Abdullahk",   " Abd-Allah Al-Kandary" ));
+            AutherListInfo.add(new AuthorClass( "mtrod",   " Abd-Allah Matrood" ));
+            AutherListInfo.add(new AuthorClass( "bsfr",   " Abd-Allah Basfar" ));
+            AutherListInfo.add(new AuthorClass( "kyat",   " Abd-Allah Kayat" ));
+            AutherListInfo.add(new AuthorClass( "jhn",   "Abd-Allah Awad" ));
+            AutherListInfo.add(new AuthorClass( "mohsin_harthi",   " Abd-AlMohsin Al-Harithi" ));
+            AutherListInfo.add(new AuthorClass( "obk",   " Abd-AlMohsin Al-Obeikan" ));
+            AutherListInfo.add(new AuthorClass( "qasm",   " Abd-AlMohsin Al-Kasim" ));
+            AutherListInfo.add(new AuthorClass( "kanakeri",   " Abd-AlHadi Ahmed " ));
+            AutherListInfo.add(new AuthorClass( "wdod",   " Abd-AlWadood" ));
+            AutherListInfo.add(new AuthorClass( "abo_hashim",   " Ali Abo Hashim" ));
+            AutherListInfo.add(new AuthorClass( "huthifi_qalon",   " Ali Alhutheifi" ));
+            AutherListInfo.add(new AuthorClass( "hthfi",   " Ali Bin Abd-AlRahman" ));
+            AutherListInfo.add(new AuthorClass( "a_jbr",   " Ali Jaber" ));
+            AutherListInfo.add(new AuthorClass( "hajjaj",   " Ali Hajaj " ));
+            AutherListInfo.add(new AuthorClass( "hafz",   " Imad Zoheyr" ));
+            AutherListInfo.add(new AuthorClass( "frs_a",   " Faris Abbad" ));
+            AutherListInfo.add(new AuthorClass( "lafi",   " Lafey Al-Awney" ));
+            AutherListInfo.add(new AuthorClass( "zaml",   " Majad Al-Zamel" ));
+            AutherListInfo.add(new AuthorClass( "shaibat",   "Malak shiba" ));
+            AutherListInfo.add(new AuthorClass( "maher_m",   " Maher Al-maeekly" ));
+            AutherListInfo.add(new AuthorClass( "maher",   " Maher Al-maeekly H" ));
+            AutherListInfo.add(new AuthorClass( "shaksh",   " Maher Shkhashero" ));
+            AutherListInfo.add(new AuthorClass( "ayyub",   " Mohammad Ayoub" ));
+            AutherListInfo.add(new AuthorClass( "braak",   " Mohammad Barak" ));
+            AutherListInfo.add(new AuthorClass( "tblawi",   " Mohammad Al-Tablawi" ));
+            AutherListInfo.add(new AuthorClass( "mhsny",   " Mohammad Al-Mahesney" ));
+            AutherListInfo.add(new AuthorClass( "monshed",   "Mohammad Al-Monshid" ));
+            AutherListInfo.add(new AuthorClass( "jbrl",   " Mohammad Jabril" ));
+            AutherListInfo.add(new AuthorClass( "rashad",   " Mohammad Rashid " ));
+            AutherListInfo.add(new AuthorClass( "shah",   " Mohammad Salih" ));
+            AutherListInfo.add(new AuthorClass( "minsh",   " Mohammad Sideek Al-Minshawe" ));
+            AutherListInfo.add(new AuthorClass( "minsh_mjwd",   "Mohammad Sideek Al-Minshawe M" ));
+            AutherListInfo.add(new AuthorClass( "abdullah_dori",   " Mohamed Abd-AlHakeem" ));
+            AutherListInfo.add(new AuthorClass( "khan",   " Mohammad Athman Khan" ));
+            AutherListInfo.add(new AuthorClass( "mrifai",   " Mahmood Al-Rifaey" ));
+            AutherListInfo.add(new AuthorClass( "sheimy",   " mahmmod Al-Shimey" ));
+            AutherListInfo.add(new AuthorClass( "husr",   " Mahmood Al-Husary" ));
+            AutherListInfo.add(new AuthorClass( "bna_mjwd",   " Mahmood Ali" ));
+            AutherListInfo.add(new AuthorClass( "afs",   " Masharey Al-Afasy" ));
+            AutherListInfo.add(new AuthorClass( "mustafa",   " Mostafa Ismail" ));
+            AutherListInfo.add(new AuthorClass( "lahoni",   " Mostafa Al-Lahoney" ));
+            AutherListInfo.add(new AuthorClass( "ra3ad",   " Mostafa Raed" ));
+            AutherListInfo.add(new AuthorClass( "harthi",   " Mueyd Al-Harithey" ));
+            AutherListInfo.add(new AuthorClass( "muftah_thakwan",   " Miftah Al-Soltaney" ));
+            AutherListInfo.add(new AuthorClass( "bilal",   "Mosa Bilal" ));
+            AutherListInfo.add(new AuthorClass( "qtm",   "Naser Al-Qatami" ));
+            AutherListInfo.add(new AuthorClass( "nabil",   "Nabil Al-Rifaeey" ));
+            AutherListInfo.add(new AuthorClass( "namh",   "Naama Al-Hassan" ));
+            AutherListInfo.add(new AuthorClass( "hani",   "Hani Al-Rifaey" ));
+            AutherListInfo.add(new AuthorClass( "waleed",   " Waleed Al-Naehiy" ));
+            AutherListInfo.add(new AuthorClass( "yasser",   " Yaser Ad-Dosary" ));
+            AutherListInfo.add(new AuthorClass( "qurashi",   " Yaser Korashey" ));
+            AutherListInfo.add(new AuthorClass( "mzroyee",   "Yaser Al-Mazrooey" ));
+            AutherListInfo.add(new AuthorClass( "yahya",   " Yahya Hawwa" ));
+            AutherListInfo.add(new AuthorClass( "yousef",   " Yousef Al-Shuwaieey " ));
+            AutherListInfo.add(new AuthorClass( "noah",   "Yousef Bin Nooh" ));
+            AutherListInfo.add(new AuthorClass( "omar_warsh",   " Omar Al Kazabri" ));
         }
 
         return (AutherListInfo);
@@ -364,7 +366,7 @@ public class LnaguageClass {
             ArabicName ="8";
         if (EnglishName.endsWith("dokali"))
             ArabicName ="7";
-        if (EnglishName.endsWith("alzain"))
+        if (EnglishName.endsWith("Alzain"))
             ArabicName ="9";
         if (EnglishName.endsWith("omran"))
             ArabicName ="9";
@@ -376,7 +378,7 @@ public class LnaguageClass {
             ArabicName ="11";
         if (EnglishName.endsWith("twfeeq"))
             ArabicName ="6";
-        if (EnglishName.endsWith("jamal"))
+        if (EnglishName.endsWith("jamAl"))
             ArabicName ="6";
         if (EnglishName.endsWith("jaman"))
             ArabicName ="6";
@@ -414,7 +416,7 @@ public class LnaguageClass {
             ArabicName ="8";
         if (EnglishName.endsWith("s_bud"))
             ArabicName ="6";
-        if (EnglishName.endsWith("salah_hashim_m"))
+        if (EnglishName.endsWith("sAlah_hashim_m"))
             ArabicName ="12";
         if (EnglishName.endsWith("bu_khtr"))
             ArabicName ="8";
@@ -468,7 +470,7 @@ public class LnaguageClass {
             ArabicName ="8";
         if (EnglishName.endsWith("abo_hashim"))
             ArabicName ="9";
-        if (EnglishName.endsWith("huthifi_qalon"))
+        if (EnglishName.endsWith("huthifi_qAlon"))
             ArabicName ="9";
         if (EnglishName.endsWith("hthfi"))
             ArabicName ="9";
@@ -536,7 +538,7 @@ public class LnaguageClass {
             ArabicName ="8";
         if (EnglishName.endsWith("muftah_thakwan"))
             ArabicName ="11";
-        if (EnglishName.endsWith("bilal"))
+        if (EnglishName.endsWith("bilAl"))
             ArabicName ="11";
         if (EnglishName.endsWith("qtm"))
             ArabicName ="6";
@@ -546,7 +548,7 @@ public class LnaguageClass {
             ArabicName ="8";
         if (EnglishName.endsWith("hani"))
             ArabicName ="8";
-        if (EnglishName.endsWith("waleed"))
+        if (EnglishName.endsWith("wAleed"))
             ArabicName ="9";
         if (EnglishName.endsWith("yasser"))
             ArabicName ="11";
@@ -602,9 +604,9 @@ public class LnaguageClass {
             ArabicName ="12";
         if (EnglishName.endsWith("3zazi"))
             ArabicName ="8";
-        if (EnglishName.endsWith("dokali"))
+        if (EnglishName.endsWith("dokAli"))
             ArabicName ="7";
-        if (EnglishName.endsWith("alzain"))
+        if (EnglishName.endsWith("Alzain"))
             ArabicName ="9";
         if (EnglishName.endsWith("omran"))
             ArabicName ="9";
@@ -616,7 +618,7 @@ public class LnaguageClass {
             ArabicName ="11";
         if (EnglishName.endsWith("twfeeq"))
             ArabicName ="6";
-        if (EnglishName.endsWith("jamal"))
+        if (EnglishName.endsWith("jamAl"))
             ArabicName ="6";
         if (EnglishName.endsWith("jaman"))
             ArabicName ="6";
@@ -654,7 +656,7 @@ public class LnaguageClass {
             ArabicName ="8";
         if (EnglishName.endsWith("s_bud"))
             ArabicName ="6";
-        if (EnglishName.endsWith("salah_hashim_m"))
+        if (EnglishName.endsWith("sAlah_hashim_m"))
             ArabicName ="12";
         if (EnglishName.endsWith("bu_khtr"))
             ArabicName ="8";
@@ -708,7 +710,7 @@ public class LnaguageClass {
             ArabicName ="8";
         if (EnglishName.endsWith("abo_hashim"))
             ArabicName ="9";
-        if (EnglishName.endsWith("huthifi_qalon"))
+        if (EnglishName.endsWith("huthifi_qAlon"))
             ArabicName ="9";
         if (EnglishName.endsWith("hthfi"))
             ArabicName ="9";
@@ -776,7 +778,7 @@ public class LnaguageClass {
             ArabicName ="8";
         if (EnglishName.endsWith("muftah_thakwan"))
             ArabicName ="11";
-        if (EnglishName.endsWith("bilal"))
+        if (EnglishName.endsWith("bilAl"))
             ArabicName ="11";
         if (EnglishName.endsWith("qtm"))
             ArabicName ="6";
@@ -786,7 +788,7 @@ public class LnaguageClass {
             ArabicName ="8";
         if (EnglishName.endsWith("hani"))
             ArabicName ="8";
-        if (EnglishName.endsWith("waleed"))
+        if (EnglishName.endsWith("wAleed"))
             ArabicName ="9";
         if (EnglishName.endsWith("yasser"))
             ArabicName ="11";
@@ -800,6 +802,8 @@ public class LnaguageClass {
             ArabicName ="9";
         if (EnglishName.endsWith("noah"))
             ArabicName ="8";
+	if (EnglishName.endsWith("omar_warsh"))
+	    ArabicName = 9;
         return ArabicName;
 
 
@@ -933,113 +937,113 @@ public class LnaguageClass {
             ListAya.add(new AuthorClass("005", "Al-Ma'idah "));
             ListAya.add(new AuthorClass("006", "Al-An'am "));
             ListAya.add(new AuthorClass("007", "Al-A'raf "));
-            ListAya.add(new AuthorClass("008", "Al-Anfal "));
+            ListAya.add(new AuthorClass("008", "Al-AnfAl "));
             ListAya.add(new AuthorClass("009", "Al-Bara'at  "));
             ListAya.add(new AuthorClass("010", "Yunus  "));
-            ListAya.add(new AuthorClass("011", " Hud(Hud)"));
+            ListAya.add(new AuthorClass("011", " Hud "));
             ListAya.add(new AuthorClass("012", " Yusuf "));
             ListAya.add(new AuthorClass("013", "Ar - Ra'd  "));
             ListAya.add(new AuthorClass("014", "Ibrahim "));
             ListAya.add(new AuthorClass("015", " Al - Hijr "));
             ListAya.add(new AuthorClass("016", " An - Nahl "));
-            ListAya.add(new AuthorClass("017", " Bani Isra'il "));
-            ListAya.add(new AuthorClass("018", " Al-Kahf  "));
+            ListAya.add(new AuthorClass("017", " Al - Isra' "));
+            ListAya.add(new AuthorClass("018", " Al - Kahf  "));
             ListAya.add(new AuthorClass("019", "Maryam "));
             ListAya.add(new AuthorClass("020", "Ta Ha  "));
-            ListAya.add(new AuthorClass("021", "Al-Anbiya' "));
-            ListAya.add(new AuthorClass("022", "Al-Hajj "));
-            ListAya.add(new AuthorClass("023", "Al-Mu'minun "));
-            ListAya.add(new AuthorClass("024", "An-Nur "));
-            ListAya.add(new AuthorClass("025", "Al-Furqan "));
-            ListAya.add(new AuthorClass("026", "Ash-Shu'ara' "));
-            ListAya.add(new AuthorClass("027", "An-Naml "));
-            ListAya.add(new AuthorClass("028", "Al-Qasas "));
-            ListAya.add(new AuthorClass("029", "Al-'Ankabut "));
-            ListAya.add(new AuthorClass("030", "Ar-Rum "));
+            ListAya.add(new AuthorClass("021", "Al - Anbiya' "));
+            ListAya.add(new AuthorClass("022", "Al - Hajj "));
+            ListAya.add(new AuthorClass("023", "Al - Mu'minun "));
+            ListAya.add(new AuthorClass("024", "An - Nur "));
+            ListAya.add(new AuthorClass("025", "Al - Furqan "));
+            ListAya.add(new AuthorClass("026", "Ash - Shu'ara' "));
+            ListAya.add(new AuthorClass("027", "An - Naml "));
+            ListAya.add(new AuthorClass("028", "Al - Qasas "));
+            ListAya.add(new AuthorClass("029", "Al - 'Ankabut "));
+            ListAya.add(new AuthorClass("030", "Ar - Rum "));
             ListAya.add(new AuthorClass("031", "Luqman "));
-            ListAya.add(new AuthorClass("032", "As-Sajdah "));
-            ListAya.add(new AuthorClass("033", "Al-Ahzab "));
-            ListAya.add(new AuthorClass("034", "Al-Saba'  "));
-            ListAya.add(new AuthorClass("035", "Al-Fatir "));
+            ListAya.add(new AuthorClass("032", "As - Sajdah "));
+            ListAya.add(new AuthorClass("033", "Al - Ahzab "));
+            ListAya.add(new AuthorClass("034", "Al - Saba'  "));
+            ListAya.add(new AuthorClass("035", "Al - Fatir "));
             ListAya.add(new AuthorClass("036", "Ya Sin "));
-            ListAya.add(new AuthorClass("037", "As-Saffat"));
+            ListAya.add(new AuthorClass("037", "As - Saffat"));
             ListAya.add(new AuthorClass("038", "Sad "));
-            ListAya.add(new AuthorClass("039", "Az-Zumar "));
-            ListAya.add(new AuthorClass("040", "Al-Mu'min "));
+            ListAya.add(new AuthorClass("039", "Az - Zumar "));
+            ListAya.add(new AuthorClass("040", "Al - Mu'minun "));
             ListAya.add(new AuthorClass("041", "Ha Mim "));
-            ListAya.add(new AuthorClass("042", "Ash-Shura "));
-            ListAya.add(new AuthorClass("043", "Az-Zukhruf "));
-            ListAya.add(new AuthorClass("044", "Ad-Dukhan "));
-            ListAya.add(new AuthorClass("045", "Al-Jathiyah  "));
-            ListAya.add(new AuthorClass("046", "Al-Ahqaf "));
+            ListAya.add(new AuthorClass("042", "Ash - Shura "));
+            ListAya.add(new AuthorClass("043", "Az - Zukhruf "));
+            ListAya.add(new AuthorClass("044", "Ad - Dukhan "));
+            ListAya.add(new AuthorClass("045", "Al - Jathiyah  "));
+            ListAya.add(new AuthorClass("046", "Al - Ahqaf "));
             ListAya.add(new AuthorClass("047", "Muhammad "));
-            ListAya.add(new AuthorClass("048", "Al-Fath "));
-            ListAya.add(new AuthorClass("049", "Al-Hujurat "));
+            ListAya.add(new AuthorClass("048", "Al - Fath "));
+            ListAya.add(new AuthorClass("049", "Al - Hujurat "));
             ListAya.add(new AuthorClass("050", "Qaf  "));
-            ListAya.add(new AuthorClass("051", "Ad-Dhariyat "));
-            ListAya.add(new AuthorClass("052", "At-Tur "));
-            ListAya.add(new AuthorClass("053", "An-Najm "));
-            ListAya.add(new AuthorClass("054", "Al-Qamar "));
-            ListAya.add(new AuthorClass("055", "Ar-Rahman "));
-            ListAya.add(new AuthorClass("056", "Al-Waqi'ah "));
-            ListAya.add(new AuthorClass("057", "Al-Hadid "));
-            ListAya.add(new AuthorClass("058", "Al-Mujadilah "));
-            ListAya.add(new AuthorClass("059", "Al-Hashr "));
-            ListAya.add(new AuthorClass("060", "Al-Mumtahanah "));
-            ListAya.add(new AuthorClass("061", "As-Saff "));
-            ListAya.add(new AuthorClass("062", "Al-Jumu'ah "));
-            ListAya.add(new AuthorClass("063", "Al-Munafiqun "));
-            ListAya.add(new AuthorClass("064", "At-Taghabun "));
-            ListAya.add(new AuthorClass("065", "At-Talaq "));
-            ListAya.add(new AuthorClass("066", "At-Tahrim "));
-            ListAya.add(new AuthorClass("067", "Al-Mulk "));
-            ListAya.add(new AuthorClass("068", "Al-Qalam "));
-            ListAya.add(new AuthorClass("069", "Al-Haqqah "));
-            ListAya.add(new AuthorClass("070", "Al-Ma'arij "));
+            ListAya.add(new AuthorClass("051", "Ad - Dhariyat "));
+            ListAya.add(new AuthorClass("052", "At - Tur "));
+            ListAya.add(new AuthorClass("053", "An - Najm "));
+            ListAya.add(new AuthorClass("054", "Al - Qamar "));
+            ListAya.add(new AuthorClass("055", "Ar - Rahman "));
+            ListAya.add(new AuthorClass("056", "Al - Waqi'ah "));
+            ListAya.add(new AuthorClass("057", "Al - Hadid "));
+            ListAya.add(new AuthorClass("058", "Al - Mujadilah "));
+            ListAya.add(new AuthorClass("059", "Al - Hashr "));
+            ListAya.add(new AuthorClass("060", "Al - Mumtahinah "));
+            ListAya.add(new AuthorClass("061", "As - Saff "));
+            ListAya.add(new AuthorClass("062", "Al - Jumu'ah "));
+            ListAya.add(new AuthorClass("063", "Al - Munafiqun "));
+            ListAya.add(new AuthorClass("064", "At - Taghabun "));
+            ListAya.add(new AuthorClass("065", "At - Talaq "));
+            ListAya.add(new AuthorClass("066", "At - Tahrim "));
+            ListAya.add(new AuthorClass("067", "Al - Mulk "));
+            ListAya.add(new AuthorClass("068", "Al - QAlam "));
+            ListAya.add(new AuthorClass("069", "Al - Haqqah "));
+            ListAya.add(new AuthorClass("070", "Al - Ma'arij "));
             ListAya.add(new AuthorClass("071", "Nuh  "));
-            ListAya.add(new AuthorClass("072", "Al-Jinn "));
-            ListAya.add(new AuthorClass("073", "Al-Muzzammil "));
-            ListAya.add(new AuthorClass("074", "Al-Muddaththir "));
-            ListAya.add(new AuthorClass("075", "Al-Qiyamah "));
-            ListAya.add(new AuthorClass("076", "Al-Insan "));
-            ListAya.add(new AuthorClass("077", "Al-Mursalat "));
-            ListAya.add(new AuthorClass("078", "An-Naba'  "));
-            ListAya.add(new AuthorClass("079", "An-Nazi'at "));
+            ListAya.add(new AuthorClass("072", "Al - Jinn "));
+            ListAya.add(new AuthorClass("073", "Al - Muzzammil "));
+            ListAya.add(new AuthorClass("074", "Al - Muddaththir "));
+            ListAya.add(new AuthorClass("075", "Al - Qiyamah "));
+            ListAya.add(new AuthorClass("076", "Al - Insan "));
+            ListAya.add(new AuthorClass("077", "Al - Mursalat "));
+            ListAya.add(new AuthorClass("078", "An - Naba'  "));
+            ListAya.add(new AuthorClass("079", "An - Nazi'at "));
             ListAya.add(new AuthorClass("080", "'Abasa  "));
-            ListAya.add(new AuthorClass("081", "At-Takwir "));
-            ListAya.add(new AuthorClass("082", "Al-Infitar "));
-            ListAya.add(new AuthorClass("083", "At-Tatfif "));
-            ListAya.add(new AuthorClass("084", "Al-Inshiqaq "));
-            ListAya.add(new AuthorClass("085", "Al-Buruj "));
-            ListAya.add(new AuthorClass("086", "At-Tariq "));
-            ListAya.add(new AuthorClass("087", "Al-A'la "));
-            ListAya.add(new AuthorClass("088", "Al-Ghashiyah "));
-            ListAya.add(new AuthorClass("089", "Al-Fajr "));
-            ListAya.add(new AuthorClass("090", "Al-Balad "));
-            ListAya.add(new AuthorClass("091", "Ash-Shams "));
-            ListAya.add(new AuthorClass("092", "Al-Lail "));
-            ListAya.add(new AuthorClass("093", "Ad-Duha "));
-            ListAya.add(new AuthorClass("094", "Al-Inshirah "));
-            ListAya.add(new AuthorClass("095", "At-Tin "));
-            ListAya.add(new AuthorClass("096", "Al-'Alaq  "));
-            ListAya.add(new AuthorClass("097", " Al-Qadr "));
-            ListAya.add(new AuthorClass("098", " Al-Bayyinah "));
-            ListAya.add(new AuthorClass("099", " Al-Zilzal  "));
-            ListAya.add(new AuthorClass("100", " Al-'Adiyat "));
-            ListAya.add(new AuthorClass("101", " Al-Qari'ah "));
-            ListAya.add(new AuthorClass("102", "At-Takathur "));
-            ListAya.add(new AuthorClass("103", "Al-'Asr "));
-            ListAya.add(new AuthorClass("104", "Al-Humazah "));
-            ListAya.add(new AuthorClass("105", "Al-Fil "));
-            ListAya.add(new AuthorClass("106", "Al-Quraish "));
-            ListAya.add(new AuthorClass("107", "Al-Ma'un  "));
-            ListAya.add(new AuthorClass("108", "Al-Kauthar "));
-            ListAya.add(new AuthorClass("109", "Al-Kafirun "));
-            ListAya.add(new AuthorClass("110", "An-Nasr "));
-            ListAya.add(new AuthorClass("111", " Al-Lahab "));
-            ListAya.add(new AuthorClass("112", " Al-Ikhlas "));
-            ListAya.add(new AuthorClass("113", "Al-Falaq "));
-            ListAya.add(new AuthorClass("114", " An-Nas  "));
+            ListAya.add(new AuthorClass("081", "At - Takwir "));
+            ListAya.add(new AuthorClass("082", "Al - Infitar "));
+            ListAya.add(new AuthorClass("083", "At - Tatfif "));
+            ListAya.add(new AuthorClass("084", "Al - Inshiqaq "));
+            ListAya.add(new AuthorClass("085", "Al - Buruj "));
+            ListAya.add(new AuthorClass("086", "At - Tariq "));
+            ListAya.add(new AuthorClass("087", "Al - A'la "));
+            ListAya.add(new AuthorClass("088", "Al - Ghashiyah "));
+            ListAya.add(new AuthorClass("089", "Al - Fajr "));
+            ListAya.add(new AuthorClass("090", "Al - Balad "));
+            ListAya.add(new AuthorClass("091", "Ash - Shams "));
+            ListAya.add(new AuthorClass("092", "Al - Lail "));
+            ListAya.add(new AuthorClass("093", "Ad - Duha "));
+            ListAya.add(new AuthorClass("094", "As - Sharh "));
+            ListAya.add(new AuthorClass("095", "At - Tin "));
+            ListAya.add(new AuthorClass("096", "Al - 'Alaq  "));
+            ListAya.add(new AuthorClass("097", "Al - Qadr "));
+            ListAya.add(new AuthorClass("098", "Al - Bayyinah "));
+            ListAya.add(new AuthorClass("099", "Al - Zalzalah  "));
+            ListAya.add(new AuthorClass("100", "Al - 'Adiyat "));
+            ListAya.add(new AuthorClass("101", "Al - Qari'ah "));
+            ListAya.add(new AuthorClass("102", "At - Takathur "));
+            ListAya.add(new AuthorClass("103", "Al - 'Asr "));
+            ListAya.add(new AuthorClass("104", "Al - Humazah "));
+            ListAya.add(new AuthorClass("105", "Al - Fil "));
+            ListAya.add(new AuthorClass("106", "Al - Quraish "));
+            ListAya.add(new AuthorClass("107", "Al - Ma'un  "));
+            ListAya.add(new AuthorClass("108", "Al - Kauthar "));
+            ListAya.add(new AuthorClass("109", "Al - Kafirun "));
+            ListAya.add(new AuthorClass("110", "An - Nasr "));
+            ListAya.add(new AuthorClass("111", "Al - Lahab "));
+            ListAya.add(new AuthorClass("112", "Al - Ikhlas "));
+            ListAya.add(new AuthorClass("113", "Al - Falaq "));
+            ListAya.add(new AuthorClass("114", "An - Nas  "));
         }
         ListBeginEndAya ListRange = new ListBeginEndAya();
         ListRange = managment.autherRanageDetermine(ReciteName);
@@ -1053,19 +1057,19 @@ public class LnaguageClass {
 
             AuthorClass ac = new AuthorClass();
             ac = ListAya.get(i);
-                String SDPath = Environment.getExternalStorageDirectory().getPath() + "/";
+                String SDPath = Environment.getExternAlStorageDirectory().getPath() + "/";
             AYAPAth =SDPath+  ReciteName+ ac.ServerName +".mp3";
 
-            //    String[] fmyFilemyFileiles = isoStore.GetFileNames(RealServerFolder + ListAya[i].ServerName + ".mp3");
+            //    String[] fmyFilemyFileiles = isoStore.GetFileNames(ReAlServerFolder + ListAya[i].ServerName + ".mp3");
             File myFile = new File(AYAPAth);
             if (myFile.exists())
-                ListAyaRanage.add(new AuthorClass(ac.ServerName, ac.RealName,  avalible(),  AYAPAth  ));
+                ListAyaRanage.add(new AuthorClass(ac.ServerName, ac.ReAlName,  avAlible(),  AYAPAth  ));
             else
             {
                 AYAPAth ="http://server"+  serverNumber (ReciteName) + ".mp3quran.net/" +ReciteName + "/" +  ac.ServerName + ".mp3";
 
-              //  AYAPAth = "http://www.quran.alrubaye.com/quran/" + LnaguageClass.RecitesName + "/" + ac.ServerName + ".mp3";
-             ListAyaRanage.add(new AuthorClass(ac.ServerName, ac.RealName, disavalible(), AYAPAth));
+              //  AYAPAth = "http://www.quran.Alrubaye.com/quran/" + LnaguageClass.RecitesName + "/" + ac.ServerName + ".mp3";
+             ListAyaRanage.add(new AuthorClass(ac.ServerName, ac.ReAlName, disavAlible(), AYAPAth));
             }
 
 
