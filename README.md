@@ -11,6 +11,4 @@ without having internet connection.
 
 ![alt tag](https://s8.postimg.org/mianz5kw5/Screenshot_2017_02_18_16_10_45.png)
 
-
-
-![alt tag](https://s8.postimg.org/ruzida8sh/Screenshot_2017_02_18_16_11_03.png)
+![alt tag](https://s8.postimg.org/68khw9a85/Screenshot_2017_02_18_16_11_03.png)
