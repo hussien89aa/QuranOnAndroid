@@ -9,7 +9,6 @@ The user first choses the name of the Qari he wants to listen to, then selects a
 The user might store a particular Surah recitation in their personal SD card. This way, the application can read from memory
 without having internet connection.
 
-![read](https://lh3.googleusercontent.com/sD90RlO9fnpPiMQj_1344SAqcZt4JQprdBR5mRv_iA3JzgPvF29OSVKr_Wxkto_itKoa=h900)
+![read](https://goo.gl/photos/NpDb4eCWtK9LJGQb7)
 
-
-![list](https://lh3.googleusercontent.com/Vpb2pbEQUhU3XqRJzq7M3WSDqa44OD38hUxgIPTzXMzjfPnR6iauPYQ7cpqHTA9GK7Q=h900)
+![list](https://goo.gl/photos/TWSKqsveARC2pandA)
